@@ -1,0 +1,7 @@
+apiVersion: objectbucket.io/v1alpha1
+kind: ObjectBucketClaim
+metadata:
+  name: test-obc
+spec:
+  generateBucketName: test-obc-
+  storageClassName: openshift-storage.noobaa.io
